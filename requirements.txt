@@ -1,0 +1,6 @@
+behave
+behave-html-formatter
+selenium
+webdriver-manager
+python-dotenv
+Allure-Behave

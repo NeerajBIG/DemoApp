@@ -1,0 +1,9 @@
+Feature: Login Functionality # features/login.feature:1
+
+  @smoke
+  Scenario: Verify Successful Login             # features/login.feature:4
+    Given I launch the application              # features/steps/login_steps.py:7
+    When I enter valid Username and Password    # features/steps/login_steps.py:13
+    And I click the login button                # features/steps/login_steps.py:21
+    Then I should be redirected to the homepage # features/steps/login_steps.py:27
+
