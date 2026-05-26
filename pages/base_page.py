@@ -5,8 +5,7 @@ from selenium.webdriver.common.by import By
 
 
 class BasePage:
-    """Base Page Object — shared helpers for all page classes."""
-
+    
     DEFAULT_TIMEOUT = 15
 
     def __init__(self, driver: WebDriver):
